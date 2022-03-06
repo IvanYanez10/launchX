@@ -13,8 +13,6 @@
 
 **Tabla de contenido**
 
-[TOCM]
-
 ## Wireframe
 
 [Wireframe Figma](https://www.figma.com/file/uqVdQuDVdkyRjKW7TQXZVB/abogabot?node-id=20%3A40)
