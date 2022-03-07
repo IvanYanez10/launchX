@@ -1,0 +1,272 @@
+<html lang="es">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Personalizado | BLOOM</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="style/personalizado.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo-bloom.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+  </head>
+
+  <body>
+
+    <!-- Datos -->
+    <div class="info d-flex justify-content-around">
+      <div class="">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class=""> 5573269615</span>
+      </div>
+      <div class="">
+        <span class="">Atizapan de Zaragoza Edo. Mex.</span>
+      </div>
+    </div>
+
+    <!-- navbar -->
+    <div class="he" style="background-color: #F7413D;">
+      <header class="d-flex justify-content-center py-3">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <img src="images/logo-bloom.png" alt="" height="100px">
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Personalizado</a>
+            </li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- sabores -->
+    <div class="container mt-4 text-center">
+      <h2>Encuentra tu sabor favorito</h2>
+      <div  class="row">
+
+        <div class="col-lg-4 ">
+          <div class="m-2 sabores">
+            <img src="images/sabores/tres-leches.png" alt=""> 
+            <div class="mt-2">
+              <span>Tres leches<br>$250</span>
+            </div>           
+          </div>          
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="m-2 sabores">
+            <img src="images/sabores/frutos-rojos.png" alt=""> 
+            <div class="mt-2">
+              <span>Frutos rojos<br>$250</span>
+            </div>           
+          </div>          
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="m-2 sabores">
+            <img src="images/sabores/vainilla.png" alt=""> 
+            <div class="mt-2">
+              <span>Vainilla<br>$250</span>
+            </div>           
+          </div>          
+        </div>
+
+      </div>      
+    </div>
+
+    <!-- adornos -->
+    <div class="container mt-4 text-center">
+      <h2>Adorno</h2>
+      <div  class="row otros-productos">
+
+        <div class="col-lg-4 ">
+          <div class="m-2 adornos">
+            <img src="images/adornos/figuras-azucar.png" alt=""> 
+            <div class="mt-2">
+              <span>Figuras de azucar<br> $70</span>
+            </div>           
+          </div>          
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="m-2 adornos">
+            <img src="images/adornos/letras.png" alt=""> 
+            <div class="mt-2">
+              <span>Letras<br>$20</span>
+            </div>           
+          </div>          
+        </div>
+
+        <div class="col-lg-4 ">
+          <div class="m-2 adornos">
+            <img src="images/adornos/fondant.png" alt=""> 
+            <div class="mt-2">
+              <span>Fondant<br> $120</span>
+            </div>           
+          </div>          
+        </div>
+
+      </div>      
+    </div>
+    <div class="container text-center my-2">
+      <span class="text-muted text-center">*El tamaño para los pasteles personalizados es de 30cm no modificable, rinde 8 personas.<br>
+      *El costo del sabor de divide entre el numero de sabores seleccionados.</span>  
+    </div>
+    
+    <div class="container pedido my-2" id="pedido">
+      <form action="">
+        <div class="row g-5">    
+          <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3" style="font-size: 1.8rem;">Haz tu pedido</h4>
+            <form class="needs-validation" novalidate="">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="firstName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control">                  
+                </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Telefono</label>
+              <input type="text" class="form-control">
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" placeholder="tu@ejemplo.com">              
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Direccion</label>
+              <input type="text" class="form-control"placeholder="calle #, colonia, municipio">
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">CP</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+
+          <hr class="my-4">
+          <h4 class="mb-3">Descripcion del pastel</h4>
+
+          <div class="row">
+
+            <div class="col"> 
+              <h5 class="mb-3">Sabor<span class="text-muted">(es)</span> </h5>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Tres leches</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Frutos rojos</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Vainilla</label>
+              </div>
+
+            </div>
+
+            <div class="col">
+              <h5 class="mb-3">Adorno<span class="text-muted">(s)</span> </h5>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Figuras de azucar</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">Letras</label>
+              </div>
+
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input">
+                <label class="form-check-label">fondant</label>
+              </div>
+
+            </div>
+
+          </div>
+
+          <hr class="my-4">
+
+          <h4 class="mb-3">Metodo de pago</h4>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
+              <label class="form-check-label" for="credit">Tarjeta</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="debit">Transferencia</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Enviar orden</button>
+        </form>
+      </div>
+    </div>
+
+      </form>
+    </div>
+
+  <footer class="mastfoot mt-4" style="background-color: #F7413D;">
+    <div class="container">
+
+      <div class="row pt-3">
+
+        <div class="col-2">
+          <h5>Informacion</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><span class="p-0">Atizapan de Zaragoza</span></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">5573269615</a></li>
+            <li class="nav-item mb-2"><span class="p-0">L-V 9:00 - 18:00 S 9:00 - 14:00</span></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Enlaces</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Crea tu pastel</a></li>
+            <li class="nav-item mb-2"><a href="#pedido" class="nav-link p-0">Hacer pedido</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Preguntas frecuentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0">Nosotros</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2">
+          <h5>Siguenos</h5>
+          <ul class="nav flex-row">
+            <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><img src="" alt=""></a></li>
+            <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-facebook fa-2x"></i></a></li>
+            <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
+            <li class="nav-item mb-2 pe-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-youtube fa-2x"></i></a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0"><i class="fa-brands fa-tiktok fa-2x"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="col-4 offset-1">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5652043217897!2d-99.13422778452276!3d19.431183445759736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1feccfd0d85b1%3A0xd54927b9d92b7aa4!2sJos%C3%A9%20Mar%C3%ADa%20Pino%20Su%C3%A1rez%202%2C%20Centro%20Hist%C3%B3rico%20de%20la%20Cdad.%20de%20M%C3%A9xico%2C%20Centro%2C%20Cuauht%C3%A9moc%2C%2006000%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1646608643228!5m2!1ses!2smx" 
+          width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div style="height: 20px;"></div>
+
+        </div>
+    </div>
+  </footer>
+
+</body></html>
